@@ -1,0 +1,48 @@
+* {
+    margin:0px;
+    padding:0px;
+    background-color:#efefef;
+    cursor:default;
+}
+
+@font-face {
+    font-family:Brad;
+    src:url(content/Brad.ttf);
+}
+
+header {
+    font-family:Brad;
+    text-align:center;
+    color:#efefef;
+    font-weight:bold;
+    text-shadow:1px 1px 3px #000000;
+    padding:10px;
+    background-color:#232323;
+    box-shadow:0px 3px 5px #262626;
+}
+
+.wrapper {
+    margin:auto;
+    margin-top:15px;
+    width:70%;
+    min-width:154px;
+}
+
+.bigPic img {
+    width:100%;
+}
+
+.smallPic img {
+    width:154px;
+    margin-top:5px;
+    cursor: pointer
+}
+
+footer {
+    text-align:right;
+    color:#efefef;
+    padding:10px;
+    background-color:#232323;
+    margin-top:15px;
+    box-shadow:0px -3px 5px #262626;
+}
